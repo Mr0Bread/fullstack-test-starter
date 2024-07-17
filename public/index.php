@@ -4,7 +4,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 
 $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $r) {
     $r->get('/test', function() {
-        return 'Route is working!';
+        return 'Rroute is working!';
     });
     $r->post('/graphql', [App\Controller\GraphQL::class, 'handle']);
 });
