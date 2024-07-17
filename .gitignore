@@ -1,1 +1,4 @@
 /vendor/
+
+# Ignore environment variable files
+.env
